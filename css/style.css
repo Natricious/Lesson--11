@@ -1,0 +1,281 @@
+h4, a {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-l {
+    max-width: 1250px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.padding-wrapper {
+    padding-top: 50px;
+}
+
+.contact-button {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: blue;
+    margin-top: 40px;
+}
+
+.title {
+    margin-top: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+    max-width: 378px;
+    width: 100%;
+    line-height: 1.4;
+}
+
+.forms {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+
+.textarea {
+    max-width: 720px;
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    height: 288px;
+    padding: 20px;
+    border: 2px solid rgb(194, 191, 191);
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 420px;
+    width: 100%;
+    height: 288px;
+}
+
+input[type=text] {
+    width: 100%;
+    height: 60px;
+    padding: 12px 20px;
+    border: 2px solid rgb(194, 191, 191);
+    background-color: #f8f8f8;
+}
+
+input[type=submit] {
+    width: 100%;
+    height: 60px;
+    padding: 12px 20px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #5863f8;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.section-contact {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-box {
+    max-width: 363px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-box i {
+    font-size: 20px;
+    background-color: #5863f8;
+    color: white;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.contact-box h4 {
+    margin-top: 20px;
+    color: gray;
+}
+
+.contact-box a {
+    margin-top: 9px;
+    color: gray;
+}
+
+.photos-titles {
+    margin-top: 70px;
+}
+
+.photos-titles a {
+    color: #5863f8;
+    font-weight: 600;
+}
+
+.photos-titles h4 {
+    margin-top: 17px;
+    max-width: 544px;
+    width: 100%;
+    font-size: 42px;
+}
+
+.section-photos {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    margin-top: 5px;
+    padding-top: 97px;
+    padding-bottom: 114px;
+    background-color: #121212;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-texts {
+    max-width: 261px;
+    width: 100%;
+    color: white;
+}
+
+.footer-texts h4 {
+    font-size: 24px;
+}
+
+.footer-texts p {
+    margin-top: 26px;
+    color: #b1b1b1;
+}
+
+.footer-links {
+    max-width: 620px;
+    width: 100%;
+    display: flex;
+}
+
+.links-box {
+    max-width: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.links-box:last-child {
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.links-box h4 {
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 26px;
+}
+
+.links-box a {
+    margin-top: 15px;
+    color: #5863f8;
+}
+
+.links-box:last-child a {
+    color: white;
+    display: inline-block;
+    margin-left: 5px;
+    width: 80%;
+}
+
+.links-box i {
+    margin-top: 15px;
+    width: 10%;
+    color: #5863f8;
+    display: inline-block;
+}
+
+@media (max-width: 1050px) {
+    .forms {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .inputs {
+        margin-top: 10px;
+        max-width: 720px;
+        width: 100%;
+    }
+    .section-photos {
+        flex-wrap: wrap;
+        max-width: 500px;
+        width: 100%;
+    }
+    .section-photos img {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .padding-wrapper a,
+    .padding-wrapper h1 {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .padding-wrapper a {
+        display: block;
+    }
+    .photos-titles a,
+    .photos-titles h4 {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .photos-titles a {
+        display: block;
+    }
+}
+
+@media (max-width: 500px) {
+    .section-contact {
+        flex-wrap: wrap;
+    }
+    .contact-box:not(:first-child) {
+        margin-top: 20px;
+    }
+    .footer {
+        text-align: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer-links {
+        width: 100%;
+        text-align: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+}
+    .links-box {
+        width: 100%;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .links-box h4 {
+        margin-bottom: 0;
+    }
+}
